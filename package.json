@@ -1,20 +1,11 @@
 {
-  "name": "gp",
+  "name": "api1-guided",
   "version": "1.0.0",
   "description": "Guided project for **Node API 1** Module.",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js",
-    "ketchup": "git fetch && git reset --hard origin/lecture"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LambdaSchool/node-api1-guided.git"
-  },
-  "devDependencies": {
-    "eslint": "^7.32.0",
-    "nodemon": "^2.0.13"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "^4.17.1",
